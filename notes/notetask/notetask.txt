@@ -1,4 +1,10 @@
-make movement system
+todo list
+
+-make movement system (all direction with diagonal correction (when you move in two direction youre movement speed is twice what it should be)) (also make animations for char work)
+-pause 
+-interact and branching diolauge system (with headshots on side to show what character is talking)
+-game intro
+
 
 game notes
 -rpg
@@ -27,6 +33,3 @@ Breakdown:
     Instinct: Reflexes and gut feeling.
     Charm: Likability and persuasiveness.
     Stamina: Endurance and energy levels.
--pause 
--interact and branching diolauge system (with headshots on side to show what character is talking)
--game intro
