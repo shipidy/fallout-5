@@ -1,9 +1,9 @@
 {
-  "FolderOrderSettings": [
-    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+  "FolderOrderSettings":[
     {"name":"playerslashmain","order":11,"path":"folders/playerslashmain.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
   ],
 }
