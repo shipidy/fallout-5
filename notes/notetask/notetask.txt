@@ -5,7 +5,6 @@ todo list
 -interact and branching diolauge system (with headshots on side to show what character is talking)
 -game intro
 
-
 game notes
 -rpg
 -stats system (not needed yet)
