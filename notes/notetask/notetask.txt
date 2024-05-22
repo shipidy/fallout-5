@@ -1,0 +1,32 @@
+make movement system
+
+game notes
+-rpg
+-stats system (not needed yet)
+-B.A.S.I.C.S. (not needed yet)
+
+    B - Brawn: Represents physical strength and power. It affects how hard you hit, how much you can lift, and your overall toughness in physical tasks.
+
+    A - Alertness: Reflects how sharp and aware you are. It influences how quickly you notice things, react to danger, and aim with precision.
+
+    S - Smarts: Measures your intelligence and quick thinking. It impacts your ability to solve problems, learn new skills, and understand complex ideas.
+
+    I - Instinct: Represents your gut feeling and reflexes. It affects how well you dodge attacks, make split-second decisions, and sense hidden threats.
+
+    C - Charm: Shows how likable and persuasive you are. It influences how well you get along with others, talk your way out of trouble, and lead a team.
+
+    S - Stamina: Gauges your endurance and energy levels. It determines how long you can keep going in physical activities, resist fatigue, and recover from exertion.
+
+(chatgpt told me this bro)
+
+Breakdown:
+
+    Brawn: Physical strength and power.
+    Alertness: Awareness and reaction time.
+    Smarts: Intelligence and problem-solving.
+    Instinct: Reflexes and gut feeling.
+    Charm: Likability and persuasiveness.
+    Stamina: Endurance and energy levels.
+-pause 
+-interact and branching diolauge system (with headshots on side to show what character is talking)
+-game intro
