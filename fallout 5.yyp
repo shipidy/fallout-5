@@ -22,6 +22,7 @@
   },
   "name":"fallout 5",
   "resources":[
+    {"id":{"name":"notetask","path":"notes/notetask/notetask.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_incubate","path":"sprites/spr_incubate/spr_incubate.yy",},},
