@@ -6,8 +6,8 @@
   "name":"obj_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"playerslashmain",
-    "path":"folders/playerslashmain.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
