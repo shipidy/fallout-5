@@ -11,6 +11,8 @@ player_anims[IDLE][LEFT] = spr_walk_left
 player_anims[IDLE][RIGHT] = spr_walk_right
 player_anims[IDLE][UP] = spr_walk_up
 
+mv_speed = 5
+sprintmult = 0.7
 
 // direction
 facing = DOWN
