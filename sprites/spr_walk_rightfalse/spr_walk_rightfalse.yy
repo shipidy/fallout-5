@@ -35,7 +35,7 @@
   "origin":9,
   "parent":{
     "name":"cut",
-    "path":"folders/sprites/cut.yy",
+    "path":"folders/playersprites/cut.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

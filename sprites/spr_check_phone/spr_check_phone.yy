@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"cutupplayer",
-    "path":"folders/sprites/cutupplayer.yy",
+    "path":"folders/playersprites/cutupplayer.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

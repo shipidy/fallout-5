@@ -44,7 +44,7 @@
   "origin":0,
   "parent":{
     "name":"raws",
-    "path":"folders/sprites/raws.yy",
+    "path":"folders/playersprites/raws.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_playceholder",
-    "path":"sprites/spr_playceholder/spr_playceholder.yy",
+    "name":"spr_walk_down",
+    "path":"sprites/spr_walk_down/spr_walk_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

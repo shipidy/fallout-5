@@ -12,12 +12,14 @@ player_anims[IDLE][RIGHT] = spr_walk_right
 player_anims[IDLE][UP] = spr_walk_up
 
 // movement stuff
-mv_speed = 5
-sprintmult = 0.7
-sprint_max = 100
-sprint_bar = sprint_max
-sprinting = false
-regen_sprint = false
+defmv_speed = 7
+mv_speed = 9
+speedmult = 1.4
+//sprintmult = 0.7
+//sprint_max = 100
+//sprint_bar = sprint_max
+//sprinting = false
+//regen_sprint = false
 
 // state variables
 
