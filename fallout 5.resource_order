@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"dialogue system","order":14,"path":"folders/dialogue system.yy",},
     {"name":"objects","order":11,"path":"folders/objects.yy",},
     {"name":"player","order":2,"path":"folders/objects/player.yy",},
     {"name":"rooms","order":10,"path":"folders/rooms.yy",},

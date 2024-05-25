@@ -31,11 +31,13 @@ if (x_movement == 0 and y_movement == 0) {
 
 sprite_index = player_anims[state][facing]
 
-// sprinting
+// diagonal speeding up movement
 if x_movement != 0 and y_movement != 0 {
 	x_movement *= 0.707
 	y_movement *= 0.707
 }
+
+/* sprinting will be used later on 
 
 if (sprintkey) {
 	sprinting = true
@@ -50,6 +52,7 @@ if (sprint_bar <= 0) {
 
 if (regen_sprint) {sprint_bar += 3; sprintkey = 0}
 if (sprint_bar >= 100) {alarm[0] = -1; regen_sprint = false}
+*/
  
 x += x_movement * mv_speed * (1 + (sprintkey * sprintmult))
 y += y_movement * mv_speed * (1 + (sprintkey * sprintmult))
