@@ -1,0 +1,2 @@
+draw_healthbar(100,100,500,200,sprint_bar,c_black,c_red,c_lime,0,false,true)
+draw_text(500,500,alarm[0])

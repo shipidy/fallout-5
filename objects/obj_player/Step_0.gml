@@ -4,10 +4,15 @@ left_key = keyboard_check(ord("A")) or keyboard_check(vk_left)
 down_key = keyboard_check(ord("S")) or keyboard_check(vk_down)
 right_key = keyboard_check(ord("D")) or keyboard_check(vk_right)
 sprintkey = keyboard_check(vk_shift)
+sprintkey_release = keyboard_check_released(vk_shift)
+
+test_key = keyboard_check(ord("J"))
 
 mv_speed = 7
 x_movement = right_key - left_key
 y_movement = down_key - up_key
+
+if (test_key) {sprint_bar = 50}
 
 if (y_movement == 0) {
 	if (x_movement > 0) {facing = RIGHT}
@@ -26,10 +31,25 @@ if (x_movement == 0 and y_movement == 0) {
 
 sprite_index = player_anims[state][facing]
 
+// sprinting
 if x_movement != 0 and y_movement != 0 {
-	x_movement= x_movement*0.707
-	y_movement=y_movement*0.707
+	x_movement *= 0.707
+	y_movement *= 0.707
 }
 
-x += x_movement * mv_speed * (1+(sprintkey*sprintmult))
-y += y_movement * mv_speed * (1+(sprintkey*sprintmult))
+if (sprintkey) {
+	sprinting = true
+	sprint_bar -= 1
+}
+
+// sprint regen
+if (sprint_bar <= 0) {
+	sprintkey = 0
+	if (alarm[0] == -1) {alarm[0] = 120}
+}
+
+if (regen_sprint) {sprint_bar += 3; sprintkey = 0}
+if (sprint_bar >= 100) {alarm[0] = -1; regen_sprint = false}
+ 
+x += x_movement * mv_speed * (1 + (sprintkey * sprintmult))
+y += y_movement * mv_speed * (1 + (sprintkey * sprintmult))
